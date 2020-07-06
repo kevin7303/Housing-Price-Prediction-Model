@@ -81,6 +81,7 @@ Tuning was done on all of the functions above to increase prediction accuracy.
 
 
 **Model Parameters
+
 *	**Ridge Regression** – Alpha: 12.63 
 *	**Lasso Regression** – Alpha: 0.0005 
 *	**ElasticNet Regression** – Alpha: 0.0008
@@ -88,6 +89,7 @@ Tuning was done on all of the functions above to increase prediction accuracy.
 * **Random Forest Regression** - n_estimators=200, max_depth= 80, max_features='sqrt', min_samples_leaf = 5, min_samples_split = 10
 
 **Ensemble Models**
+
 A Stacking Regressor was used to aggregate the best aspects of each of the models and create a blended model that resulted in higher accuracy.
 The Stacking Regressor used Random Forest, Gradient Boosting Regression, Ridge Regression and Lasso Regression.
 
