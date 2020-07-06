@@ -52,6 +52,7 @@ Below are some of the graphs created with seaborn:
 I wanted to create a model that would accurate predictions for housing prices and that would score well on based on the Kaggle competition metrics.
 
 *Evaluation Metric*
+
 The specific metric used to evaluate the model was Root Mean Squared Error on the Log value of the SalePrice.
 This metric was chosen to standardize the effect of error regardless of expensive or cheap house.
 
