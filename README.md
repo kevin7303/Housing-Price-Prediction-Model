@@ -44,7 +44,10 @@ The expoloraty data analysis was done to better visualize and understand data se
 Explored the target data and its distribution. Created heat map correlation matrix to better understand the data and find potential cases of multicollinearity. Created plots to visually display feature relations and possible correlations:
 Below are some of the graphs created with seaborn:
 
-"Place images here"
+
+![alt text](https://github.com/kevin7303/Housing-Price-Prediction-Model/blob/master/CorrMatrix.PNG "Correlation Matrix")
+![alt text](https://github.com/kevin7303/Housing-Price-Prediction-Model/blob/master/SalePrice_Distribution.PNG "Sale Price Distribution")
+![alt text](https://github.com/kevin7303/Housing-Price-Prediction-Model/blob/master/SalePrice_vs_LivingArea.PNG "Sale Price vs Living Area")
 
 
 
