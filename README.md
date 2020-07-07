@@ -92,9 +92,10 @@ Tuning was done on all of the functions above to increase prediction accuracy.
 * **Random Forest Regression** - n_estimators=200, max_depth= 80, max_features='sqrt', min_samples_leaf = 5, min_samples_split = 10
 
 **Ensemble Models**
-
 A Stacking Regressor was used to aggregate the best aspects of each of the models and create a blended model that resulted in higher accuracy.
-The Stacking Regressor used Random Forest, Gradient Boosting Regression, Ridge Regression and Lasso Regression.
+After many iterations, and model combinations, I decided to drop the Random Forest algorithm from the Stacking Regressor due to better accuracy.
+
+The Stacking Regressor incldues: Gradient Boosting Regression, Ridge Regression, Lasso Regression and Elastic Net Regression.
 
 A Voting Regressor was then used to further increase accuracy by distributing the prediction weight between the following models:
 * Lasso = 10%
@@ -104,6 +105,6 @@ A Voting Regressor was then used to further increase accuracy by distributing th
 * Stacking Regression (Blended model) = 60%
 
 
-**The result led to an RMSE of 0.12074 calculated by Kaggle. On July 3rd, this was within the Top 10% of best scoring models**
+**The result led to an RMSE of 0.12590 calculated by Kaggle. On July 1rd, this was within the Top 10% of best scoring models**
 
 
