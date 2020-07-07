@@ -97,11 +97,11 @@ A Stacking Regressor was used to aggregate the best aspects of each of the model
 The Stacking Regressor used Random Forest, Gradient Boosting Regression, Ridge Regression and Lasso Regression.
 
 A Voting Regressor was then used to further increase accuracy by distributing the prediction weight between the following models:
-Lasso = 10%
-Gradient Boosting Regression = 10%
-Ridge Regression = 10%
-Elastic Net = 10%
-Stacking Regression (Blended model) = 60%
+* Lasso = 10%
+* Gradient Boosting Regression = 10%
+* Ridge Regression = 10%
+* Elastic Net = 10%
+* Stacking Regression (Blended model) = 60%
 
 
 **The result led to an RMSE of 0.12074 calculated by Kaggle. On July 3rd, this was within the Top 10% of best scoring models**
