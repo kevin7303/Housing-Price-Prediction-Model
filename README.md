@@ -105,6 +105,6 @@ A Voting Regressor was then used to further increase accuracy by distributing th
 * Stacking Regression (Blended model) = 60%
 
 
-**The result led to an RMSE of 0.12590 calculated by Kaggle. On July 1rd, this was within the Top 10% of best scoring models**
+**The result led to an RMSE of 0.12590 calculated by Kaggle. On July 3rd, this was within the Top 10% of best scoring models**
 
 
